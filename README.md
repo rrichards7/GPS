@@ -4,14 +4,33 @@
 
 ## Introduction ##
 
+This repository contains GPS code for the SparkFun Venus [1]. This code utilizes MakerHub LINX VIs to read in GPS coordinates and filter them so that erroneous numbers or UART conversion mistakes do not occur.
+
+## MakerHub LINX ##
+
+LINX is a library developed by MakerHub that allows programmers to interface with the RaspberryPi, Arduino and other microcontrollers on LabVIEW. LINX has been used extensively in this project to communicate with the ArduinoMEGA, which controls each subsystem. Download and other information can be found at:
+
+[MakerHub LINX](http://sine.ni.com/nips/cds/view/p/lang/en/nid/212478)
 
 
 ## LabVIEW Code ##
 
+![1](https://user-images.githubusercontent.com/23239868/28682555-6c485aec-72cb-11e7-8639-a4727b23f573.PNG)
 
 
 
 ## Hardware Setup ##
 
+Connect the **TX0** pin to the **RX3 - PIN15** on the ArduinoMEGA (do not connect anything to **TX0** or **RX0** on the ArduinoMEGA as LINX uses these terminals).
+
+Then, connect the **3.3V** terminal to the **3.3V** power supply on the ArduinoMEGA.
+
+Finally, connect the **Ground** terminal to the **Ground** terminal on the ArduinoMEGA. All connections are illustrated in the figure below.
 
 <img src="https://user-images.githubusercontent.com/23239868/28582964-71499c8c-7135-11e7-9288-09ad126642ab.jpg" height="350" width="300">
+
+
+## Appendix ##
+
+[1] https://www.sparkfun.com/products/11058
+
