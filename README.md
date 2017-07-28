@@ -1,6 +1,8 @@
-# GPS with Arduino/LabVIEW #
+# Autonomous Snowmobile GPS #
 
 *Lead Architect: Ryan J. Richards*
+
+*The Pennsylvania State University - School of Electrical Engineering and Computer Science*
 
 ## Introduction ##
 
