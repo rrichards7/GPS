@@ -32,6 +32,8 @@ Finally, connect the **Ground** terminal to the **Ground** terminal on the Ardui
 
 <img src="https://user-images.githubusercontent.com/23239868/28582964-71499c8c-7135-11e7-9288-09ad126642ab.jpg" height="350" width="300">
 
+![img_0111](https://user-images.githubusercontent.com/23239868/28731649-bbcf9a44-73a2-11e7-8fa2-40e4c91b541e.JPG)
+
 
 ## Appendix ##
 
